@@ -6,7 +6,7 @@ export const ShowCard = (show) => {
     return (
         <Fragment>
             <figure>
-                <img className="rounded" src={show.venueImg}></img>
+                <img className="rounded" src={show.venueImg} alt="placeholder"></img>
             </figure>
             <div className="ml-25">
                 <h2>
